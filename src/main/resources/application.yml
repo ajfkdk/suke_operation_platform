@@ -1,0 +1,17 @@
+wx:
+  configs:
+    AppId: wxd27673576e96d092
+    Secret: 256245584d5c0b72d3167f5f0650c5e9
+    Token: good
+    AesKey: 111
+
+spring:
+  datasource:
+    username: root
+    password: root
+    url: jdbc:mysql://localhost:3306/tree_manager?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&serverTimezone=GMT%2B8&useSSL=false&allowPublicKeyRetrieval=true&autoReconnect=true&failOverReadOnly=false
+
+  redis:
+    host: localhost
+    port: 6379
+
